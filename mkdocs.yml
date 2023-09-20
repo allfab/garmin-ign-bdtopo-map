@@ -1,0 +1,93 @@
+site_name: GARMIN IGN BDTOPO MAP
+site_url: https://kimsufi.allfabox.fr
+
+theme:
+  name: material
+  language: fr
+  favicon: assets/images/favicon.png
+  logo: assets/images/favicon.png
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: green
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    # Palette toggle for dark mode
+    - scheme: slate
+      accent: green
+      primary: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  font:
+    code: Mooli
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.sections # prevents collapsible sections
+    - navigation.indexes # section index pages
+    - navigation.expand #expands sections by default
+    - navigation.tabs # section tabs along the top
+    - navigation.top
+    - toc.follow
+    - toc.integrate # moves toc to the left
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.tabs.link
+    - content.tooltips
+
+markdown_extensions: 
+  - admonition # enables coloured blocks mid article
+  - attr_list # improves image handling
+  - md_in_html # grids (insiders)
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - search
+  - glightbox
+  - open-in-new-tab
+  - mermaid2
+
+#extra_css:
+  #- extra/mermaid-base.css
+
+nav:
+  - GARMIN IGN BDTOPO MAP:
+    - 1. Introduction:
+      - Bienvenue sur GARMIN IGN BDTOPO MAP: "index.md"
+    - 2. Pile technologique:
+      - Logiciels & outils: "tech-stack/software-tools.md"
+      - Arborescence des dossiers/fichiers: "tech-stack/folder-tree.md"
+      - Téléchargement des données "socle": "tech-stack/data.md"
+    - 3. Processus de création:
+      - Diagramme: "process/diagram.md"
+      - Détails du process: "process/details.md"
+  - Téléchargements: downloads.md
+
+extra:
+  social:
+    - icon: 'fontawesome/brands/mastodon'
+      link: 'https://mapstodon.space/@allfab'
+      name: Allfab sur Mastodon
+      
+copyright: 2023 &copy; Allfab Studio - Licensed under GPLv3

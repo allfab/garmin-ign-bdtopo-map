@@ -1,0 +1,31 @@
+---
+version: "3.9"
+services:
+  garmin-mkdocs:
+    container_name: garmin-mkdocs
+    build: .
+    restart: unless-stopped
+    ports:
+      - 8088:8000
+    volumes:
+      - .:/docs
+    environment:
+      TZ:  Europe/Paris
+    networks:
+      - mkdocs
+
+networks:
+  mkdocs:
+    name: mkdocs
+    driver: bridge
+    ipam:
+      config:
+        - subnet: "172.24.0.0/16"
+          gateway: "172.24.0.1"
+    driver_opts:
+      com.docker.network.bridge.default_bridge: "false"
+      com.docker.network.bridge.enable_icc: "true"	  
+      com.docker.network.bridge.enable_ip_masquerade: "true"
+      com.docker.network.bridge.host_binding_ipv4: "0.0.0.0"
+      com.docker.network.bridge.name: "mkdocs"
+      com.docker.network.driver.mtu: "1500"
