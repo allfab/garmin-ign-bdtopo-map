@@ -1,5 +1,8 @@
 site_name: GARMIN IGN BDTOPO MAP
-site_url: https://kimsufi.allfabox.fr
+site_url: https://garmin.allfabox.fr
+repo_url: https://github.com/allfab/garmin-ign-bdtopo-map.git
+repo_name: allfab/garmin-ign-bdtopo-map
+edit_uri: edit/main/docs/
 
 theme:
   name: material
