@@ -22,4 +22,7 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material 
+      - run: pip install mkdocs-mermaid2-plugin
+      - run: pip install mkdocs-glightbox
+      - run: pip install mkdocs-open-in-new-tab
       - run: mkdocs gh-deploy --force
