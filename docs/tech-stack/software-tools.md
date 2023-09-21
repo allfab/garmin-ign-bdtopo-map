@@ -1,8 +1,13 @@
+---
+title: Logiciels & outils
+icon: material/tools
+---
+
 # **02-01/ Logiciels & outils**
 
-Étant géomaticien de métier, je bénéficie pour l’occasion d’une petite panoplie d’outils payants. Je pense notamment à **Global Mapper et de FME**. Ce seront mes 2 outils clés dans la préparation des données cartographiques. Je vous rassure, il est tout à fait possible d’aller jusqu’au bout de ce didacticiel avec des logiciels libres ou gratuits (éventuellement avec quelques mises en garde) mais le chemin sera bien plus long & compliqué.
+Étant géomaticien de métier, je bénéficie pour l’occasion d’une petite panoplie d’outils soumis à licences payantes. Je pense notamment à **Global Mapper et de FME**. Ce seront mes 2 outils clés dans la préparation des données cartographiques. Je vous rassure, il est tout à fait possible d’aller jusqu’au bout de ce didacticiel avec des logiciels libres ou gratuits (éventuellement avec quelques mises en garde) mais le chemin sera quand même bien plus long & compliqué.
 
-Voici la liste des logiciels dont nous allons avoir besoin :
+**Voici une liste des logiciels que nous pourrons utiliser dans la conception de notre carte :**
 
 - **[QGIS](https://www.qgis.org/fr/site/forusers/download.html)** — programme SIG open source ; le meilleur logiciel SIG bureautique Open Source utilisé pour manipuler des données de manière graphique et/ou par ligne de commande (préférez la version de l’installateur réseau OSGeo4W),
 - **[GPSMapEdit](http://www.geopainting.com/)** — logiciel shareware spécialement conçu pour fonctionner avec les cartes de type Garmin MP (la licence supprime simplement l’étiquette indiquant faite avec GPSMapEdit et ajoute quelques fonctionnalités d’exportation supplémentaires que nous n’utiliserons pas),

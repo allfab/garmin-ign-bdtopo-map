@@ -1,3 +1,8 @@
+---
+title: Diagramme
+icon: simple/diagramsdotnet
+---
+
 # **03-01/ Processus de création**
 
 **Entrons dans le vif du sujet !** 

@@ -1,3 +1,9 @@
+---
+title: Détails du proces
+icon: material/head-cog
+---
+
+
 # **03-02/ Détails du process**
 
 Il faut savoir que la création d’une **carte Garmin personnalisée** compatible avec **un récepteur GPS Garmin** peut être comparée à de la programmation : 
