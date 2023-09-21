@@ -80,7 +80,7 @@ nav:
   - 2. Pile technologique:
     - Logiciels & outils: "tech-stack/software-tools.md"
     - Arborescence des dossiers/fichiers: "tech-stack/folder-tree.md"
-    - Téléchargement des données "socle": "tech-stack/data.md"
+    - Téléchargement des données: "tech-stack/data.md"
   - 3. Processus de création:
     - Diagramme: "process/diagram.md"
     - Détails du process: "process/details.md"

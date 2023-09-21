@@ -2,7 +2,9 @@
 ![logo-light](assets/images/overview/logo-light.png#only-light)
 ![logo-dark](assets/images/overview/logo-dark.png#only-dark)
 
-Si vous souhaitez créer une carte de randonnée Garmin personnalisée à l'aspect des cartes Garmin que l'on retrouve dans le commerce, vous vous trouvez au bon endroit. Ce site documente les nombreux aspects de la création d'une carte Garmin personnalisée à l'aide de logiciels libres et open source, dans la mesure du possible.
+Si vous souhaitez créer une carte personnalisée, de randonnée ou topographique, compatible avec les produits **Garmin**, vous vous trouvez au bon endroit ! 
+
+Ce site documente les nombreux aspects de la création d'une carte **Garmin personnalisée** *à l'aide de logiciels libres et open source, dans la mesure du possible.*
 
 <figure markdown>
   ![Garmin](assets/images/overview/map-view-01.png){: width=660 }
@@ -16,7 +18,7 @@ Le but de ce site est donc la mise à disposition/création de cartes topographi
   <figcaption><i>TOPO France v6 PRO - France entière</i></figcaption>
 </figure>
 
-Vous trouverez aussi une série d’articles dans le but d’expliquer, aux cartographes en herbe et/ou aux plus confirmés, le processus de création des cartes topographiques compatibles avec un GPS de randonnée Garmin ou encore les appareils de suivi de chien tels que l’Alpha® 100F, l’Alpha® 200F/300F ou encore l’Astro 320 (qui n’est plus en vente à l’heure où j’écris cet article).
+Vous trouverez une série d’articles dans le but d’expliquer, aux cartographes en herbe et/ou aux plus confirmés, le processus de création des cartes topographiques compatibles avec les appareils GPS de Garmin.
 
 <figure markdown>
   ![Garmin](assets/images/overview/map-view-02.png){: width=660 }
@@ -31,15 +33,23 @@ Vous trouverez aussi une série d’articles dans le but d’expliquer, aux cart
   <figcaption><i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Zoom sur centre-ville</i></figcaption>
 </figure>
 
-Pour réaliser ces cartes, je me suis fortement inspiré de la série d’article publiée sur le site [GPSFileDepot](https://www.gpsfiledepot.com/). Ces articles ont été publié en 2008, puis mis à jour en 2016. À noter que je n’utiliserai pas l’entièreté des logiciels présentés dans ces articles et viendrai même en ajouter une paire dans la trousse à outils du géomaticien !
+Pour réaliser ces cartes, je me suis fortement inspiré de la série d’articles publiée sur le site [GPSFileDepot](https://www.gpsfiledepot.com/). Ces articles ont été publié en 2008, puis mis à jour en 2016. À noter que je n’utiliserai pas l’entièreté des logiciels présentés dans ces articles et viendrai même en ajouter une paire dans la trousse à outils du géomaticien !
 
 
-!!! info "OBJECTIF"
+!!! note "OBJECTIF"
     Nous aborderons les logiciels, les structures de dossiers, les informations de téléchargement des données cartographiques et leur traitement afin d’obtenir une carte Garmin Topo personnalisée.
 
 ## **:material-lightbulb-on: Prérequis**
 
 De nombreux aspects de ce tutoriel sont basés sur mon expérience et celle des autres géomaticiens qui ont déjà tenté de constituer ce genre de carte Garmin. Ce site est à destination d'un public averti.
+
+Pour réaliser une carte, il va nous falloir des données, et surtout des données géographiques. La données de base — **socle** — j'ai envie de dire, va être la [**BD TOPO®**](https://geoservices.ign.fr/bdtopo) de l'IGN. En effet, depuis le 1er janvier 2021, les données publiques de l’IGN sont libres et accessibles gratuitement en Licence ouverte Etalab 2.0. Dans le contexte du plan national de relance, cette ouverture doit faciliter l’usage des données géographiques et favoriser l’innovation au service du plus grand nombre.
+
+À ce titre, nous allons exploiter cette base de données qui modélise le territoire et ses infrastructures sur l'ensemble du territoire français.
+
+Afin d'enrichir notre carte, nous la compléterons avec les données d'[**OpenStreetMap**](https://www.openstreetmap.org/) (« © les contributeurs OpenStreetMap, sous licence ODbL »).
+
+Les données « RASTER » qui modéliseront le modèle numérique de terrain (DEM/MNT) et contribueront à la création des courbes de niveau seront téléchargées sur ce site [http://dwtkns.com/srtm30m/](http://dwtkns.com/srtm30m/) et après s’être inscrit gratuitement sur le site de la [NASA Earth Observation Data](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/earthdata-login) d’où provient la donnée.
 
 ## **:fontawesome-solid-feather-pointed: À propos de l'auteur**
 
