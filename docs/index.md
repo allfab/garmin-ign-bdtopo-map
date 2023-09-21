@@ -23,8 +23,6 @@ Vous trouverez aussi une série d’articles dans le but d’expliquer, aux cart
   <figcaption><i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Grand axe de circulation</i></figcaption>
 </figure>
 
-
-
 <figure markdown>
   ![Garmin](assets/images/overview/map-view-03.png){: width=660 }
 </figure>

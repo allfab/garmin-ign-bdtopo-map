@@ -2,7 +2,7 @@ site_name: GARMIN IGN BDTOPO MAP
 site_url: https://allfab.github.io/garmin-ign-bdtopo-map/
 repo_url: https://github.com/allfab/garmin-ign-bdtopo-map.git
 repo_name: allfab/garmin-ign-bdtopo-map
-edit_uri: edit/main/docs/
+#edit_uri: edit/main/docs/
 
 theme:
   name: material
@@ -32,12 +32,12 @@ theme:
     - navigation.sections # prevents collapsible sections
     - navigation.indexes # section index pages
     - navigation.expand #expands sections by default
-    - navigation.tabs # section tabs along the top
+    #- navigation.tabs # section tabs along the top
     - navigation.top
     - toc.follow
     - toc.integrate # moves toc to the left
-    - content.action.edit
-    - content.action.view
+    #- content.action.edit
+    #- content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
@@ -85,7 +85,7 @@ nav:
     - 3. Processus de création:
       - Diagramme: "process/diagram.md"
       - Détails du process: "process/details.md"
-  - Téléchargements: downloads.md
+  - 99. Téléchargements: downloads.md
 
 extra:
   social:
