@@ -85,7 +85,12 @@ nav:
   - 3. Processus de création:
     - Diagramme: "process/diagram.md"
     - Détails du process: "process/details.md"
-  - 99. Téléchargements: downloads.md
+  - 4. Assemblage des données et installation:
+    - Assemblage des données: "installation/data-assembly.md"
+    - Procédure d'installation: "installation/process.md"
+  - 5. Téléchargements: 
+    - France: "downloads/france.md"
+    - Régions: "downloads/regions.md"
 
 extra:
   social:
