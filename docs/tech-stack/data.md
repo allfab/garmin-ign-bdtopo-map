@@ -18,7 +18,7 @@ Afin de réaliser notre carte Garmin Topo, nous utiliserons comme données de ba
 Ce qui est très intéressant avec ce jeu de données, c’est qu’on peut la télécharger sur des échelles de territoire assez variées, du département en passant par la région ou encore sur l’ensemble du territoire français.
 
 <figure markdown>
-  ![IGN Dataset](../../assets/images/tech-stack/data/ign-bdtopo-dataset.png)
+  ![IGN Dataset](assets/images/tech-stack/data/ign-bdtopo-dataset.png)
   <figcaption>IGN BD TOPO® — La modélisation 2D et 3D du territoire et de ses infrastructures sur l’ensemble du territoire français</figcaption>
 </figure>
 
@@ -59,7 +59,7 @@ Avec [GR @ccess](https://www.mongr.fr/trouver-prochaine-randonnee), profitez de 
 ### **30-Meter SRTM**
 
 <figure markdown>
-  ![IGN Dataset](../../assets/images/tech-stack/data/30-Meter-SRTM.png){: width=660 }
+  ![IGN Dataset](assets/images/tech-stack/data/30-Meter-SRTM.png){: width=660 }
   <figcaption>30-Meter SRTM Tile Downloader</figcaption>
 </figure>
 
