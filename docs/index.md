@@ -53,5 +53,5 @@ Les données « RASTER » qui modéliseront le modèle numérique de terrain (DE
 
 ## **:fontawesome-solid-feather-pointed: À propos de l'auteur**
 
-![Allfab](assets/images/overview/allfab.jpg){: align=right width=180 }
+![Allfab](assets/images/overview/allfab.jpeg){: align=right width=180 }
 Cette documentation est écrite et maintenue par [Fabien ALLAMANCHE](https://www.linkedin.com/in/fabien-allamanche/) (alias [@allfab](https://mapstodon.space/@allfab)). 

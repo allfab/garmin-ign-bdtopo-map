@@ -4,6 +4,7 @@ repo_url: https://github.com/allfab/garmin-ign-bdtopo-map.git
 repo_name: allfab/garmin-ign-bdtopo-map
 #edit_uri: edit/main/docs/
 
+docs_dir: ./docs
 theme:
   name: material
   language: fr
@@ -92,4 +93,4 @@ extra:
       link: 'https://mapstodon.space/@allfab'
       name: Allfab sur Mastodon
       
-copyright: 2023 &copy; Allfab Studio - Licensed under GPLv3
+copyright: 2024 &copy; Allfab Studio - Licensed under GPLv3

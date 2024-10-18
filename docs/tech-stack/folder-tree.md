@@ -10,7 +10,7 @@ Ici, c’est à vous d’organiser la façon dont vous allez structurer vos donn
 Voici mon arborescence pour vous donner une idée :
 
 <figure markdown>
-  ![Image title](/images/02-tech-stack/garmin-folder-tree.webp)
+  ![Garmin Folder Tree](../../assets/images/tech-stack/folder-tree/garmin-folder-tree.png)
   <figcaption>Arborescence des dossiers/fichiers</figcaption>
 </figure>
 

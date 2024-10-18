@@ -10,7 +10,7 @@ Pour créer une carte topo, il nous faut des données vectorielles. La donnée d
 N'oublions pas les données "Raster" d'élévation que nous téléchargerons sur ce site [http://dwtkns.com/srtm30m/](http://dwtkns.com/srtm30m/) et après s’être inscrit gratuitement sur le site de la [NASA Earth Observation Data](https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/earthdata-login) d’où provient la donnée.
 
 
-## VECTEURS
+## Vecteurs
 ### **IGN BD TOPO®**
 
 Afin de réaliser notre carte Garmin Topo, nous utiliserons comme données de base, la [**BD TOPO® de l'IGN**](https://geoservices.ign.fr/bdtopo) qui est désormais en téléchargement libre depuis le 1er janvier 2021.
@@ -18,7 +18,7 @@ Afin de réaliser notre carte Garmin Topo, nous utiliserons comme données de ba
 Ce qui est très intéressant avec ce jeu de données, c’est qu’on peut la télécharger sur des échelles de territoire assez variées, du département en passant par la région ou encore sur l’ensemble du territoire français.
 
 <figure markdown>
-  ![Image title](/images/02-tech-stack/ign-bdtopo-dataset.webp)
+  ![IGN Dataset](../../assets/images/tech-stack/data/ign-bdtopo-dataset.png)
   <figcaption>IGN BD TOPO® — La modélisation 2D et 3D du territoire et de ses infrastructures sur l’ensemble du territoire français</figcaption>
 </figure>
 
@@ -48,7 +48,19 @@ Nous n’utiliserons pas l’ensemble des données présentes dans ce jeu de don
 
 ### **Sentier de randonnées - GR**
 
+
+Avec [GR @ccess](https://www.mongr.fr/trouver-prochaine-randonnee), profitez de plus de 75 000 kilomètres de randonnées décrites et proposées par la FFRandonnée.
+
 ### **OpenStreetMap**
 
-## RASTER
+[OpenStreetMap](https://www.openstreetmap.org/#map=6/46.45/2.21) est la carte ouverte et collaborative du Monde. Elle est améliorée chaque jour par plus d’un million de contributrices et contributeurs.
+
+## Raster
 ### **30-Meter SRTM**
+
+<figure markdown>
+  ![IGN Dataset](../../assets/images/tech-stack/data/30-Meter-SRTM.png){: width=660 }
+  <figcaption>30-Meter SRTM Tile Downloader</figcaption>
+</figure>
+
+[30-Meter SRTM Tile Downloader](https://dwtkns.com/srtm30m/) est ou outil permettantt de télécharger les données d'élévation de résolution de 30m provenant de **Shuttle Radar Topography Mission**
