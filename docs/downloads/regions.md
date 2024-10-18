@@ -1,21 +1,13 @@
 ---
-title: Régions
+title: Téléchargements - Régions
 icon: material/map-search
 ---
 
-# Carte Topo France SUD et NORD
+# 05-02/ :material-map-search: Régions
 
 <div class="grid cards" markdown>
 
 -   :fontawesome-regular-square-caret-up:{ .lg .middle }  Île-de-France - R11
-
-    ---
-
-    ![Île-de-France - R11](../../assets/images/downloads/regions/region-ile-france-r11-iris-IeukrO_GbFM-unsplash.jpg)
-
-    [:material-download: Télécharger](#)
-
--   :fontawesome-regular-square-caret-down:{ .lg .middle } Centre-Val de Loire - R24
 
     ---
 
@@ -90,7 +82,7 @@ icon: material/map-search
 
     ---
 
-    ![XXXXXX](../../assets/images/downloads/regions/region-occitanie-r76-jossuha-theophile-kY5yeMoqe2M-unsplash.jpg)
+    ![XXXXXX](../../assets/images/downloads/regions/GARMIN_IGN_BDTOPO_R76.png)
 
     [:material-download: Télécharger](#)
 
@@ -99,7 +91,7 @@ icon: material/map-search
 
     ---
 
-    ![XXXXXX](../../assets/images/downloads/regions/region-auvergne-rhone-alpes-r84-7BNzdaC6UGY-unsplash.jpg)
+    ![XXXXXX](../../assets/images/downloads/regions/GARMIN_IGN_BDTOPO_R84.png)
 
     [:material-download: Télécharger](#)
 
@@ -108,7 +100,7 @@ icon: material/map-search
 
     ---
 
-    ![XXXXXX](../../assets/images/downloads/regions/region-provence-alpes-cote-azur-r93-leonard-cotte-bIHJ4oxQlYs-unsplash.jpg)
+    ![XXXXXX](../../assets/images/downloads/regions/GARMIN_IGN_BDTOPO_R93.png)
 
     [:material-download: Télécharger](#)
 
@@ -117,7 +109,7 @@ icon: material/map-search
 
     ---
 
-    ![XXXXXX](../../assets/images/downloads/regions/region-corse-r94-jerome-bertaux-t4FktEy8bP4-unsplash.jpg)
+    ![XXXXXX](../../assets/images/downloads/regions/GARMIN_IGN_BDTOPO_R94.png)
 
     [:material-download: Télécharger](#)
 
