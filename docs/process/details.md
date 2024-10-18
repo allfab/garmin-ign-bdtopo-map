@@ -144,10 +144,10 @@ Nous les définissons dans un fichier spécial appelé fichier **\*.TYP**, cré�
 
 Cette fonctionnalité nous offre une grande flexibilité dans la création de nos propres cartes vectorielles thématiques Garmin. Mais la conception et le codage d’une symbologie **TYP** personnalisée au format texte standard peut être assez pénible. C’est pourquoi j’utiliserai le fichier TYP de base la carte Garmin Topo France v6 Pro sur lequel j’ai apporté quelques modifications légères (Sentier de Grande Randonnée, POI, etc).
 
-!!! Abstract "Ressource"
+!!! Abstract "Ressources"
     Voici quelques fichiers de style **\*.TYP** :
 
-    - [**Garmin Topo France v4**]() : [:fontawesome-solid-download: *Télécharger le fichier de style \*.TYP*](../resources/typ/garmin-topo-france-v4/I0001D1F.typ)
-    - [**Garmin Topo France v6**]() : [:fontawesome-solid-download: Télécharger le fichier de style \*.TYP*](../resources/typ/garmin-topo-france-v6/I0002387.typ)
-    - [**OpenTopoMap**](https://opentopomap.org/#map=6/47.584/3.098) : [:fontawesome-solid-download: *Télécharger le fichier de style \*.TYP*](../resources/typ/osm/opentopomap.typ)
-    - [**Allfab Studio**]() : [:fontawesome-solid-download: *Télécharger le fichier de style \*.TYP*](../resources/typ/allfab-studio/I2023100.typ)
+    - [**Garmin Topo France v4**]() : [:fontawesome-solid-download: *Télécharger le fichier de style \*.TYP*](../../assets/resources/typ/garmin-topo-france-v4/I0001D1F.typ)
+    - [**Garmin Topo France v6**]() : [:fontawesome-solid-download: *Télécharger le fichier de style \*.TYP*](../../assets/resources/typ/garmin-topo-france-v6/I0002387.typ)
+    - [**OpenTopoMap**](https://opentopomap.org/#map=6/47.584/3.098) : [:fontawesome-solid-download: *Télécharger le fichier de style \*.TYP*](../assets/resources/typ/osm/opentopomap.typ)
+    - [**Allfab Studio**]() : [:fontawesome-solid-download: *Télécharger le fichier de style \*.TYP*](../assets/resources/typ/allfab-studio/I2023100.typ)
