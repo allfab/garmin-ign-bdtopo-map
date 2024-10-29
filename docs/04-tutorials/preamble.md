@@ -8,9 +8,10 @@ icon: material/book-education
 
 ## **Comment créer des cartes topographiques Garmin**
 
-Ce didacticiel explique comment créer des cartes topographiques personnalisées compatibles avec les unités GPS Garmin. Ce didacticiel comporte de nombreuses étapes vou s explique comment créer des cartes avec des logiciels propriétaire (donc soumis à licence et payant), bon marché et/ou gratuits.
+Ce didacticiel explique comment créer des cartes topographiques personnalisées compatibles avec les unités GPS Garmin. Ce didacticiel comporte de nombreuses étapes vous expliquant comment créer des cartes avec des logiciels propriétaire (donc soumis à licence et payant), bon marché et/ou gratuits.
 
-En janvier 2016, une réécriture majeure a commencé. Cette réécriture rend la création de cartes Garmin beaucoup plus facile et beaucoup moins coûteuse. De plus, la réécriture se concentre désormais sur l'utilisation du logiciel SIG open source/gratuit appelé QGIS dans la mesure du possible afin de manipuler les données avec un logiciel qui ne coûte pas 100 $. L'utilisation de QGIS a également éliminé de nombreuses fois où GPSMapEdit était utilisé. Toutes les sections ont été mises à jour à l'exception de la création de vos propres contours avec QGIS. C'est encore un travail en cours.
+Il n'y a pas d'ordre prédéfini pour la création des fichiers ESRI Shapefile compatible pour l'export au format Polish Map Format ***.MP**. Vous pouvez organiser la création de ces derniers comme bon vous semble. Il suffit d'ajouter l'ensemble des fichiers créés à la compilation dans l'étape finale de compilation.
+
 
 ## **Table des matières**
 
