@@ -1,7 +1,7 @@
 ---
 services:
-  garmin-mkdocs:
-    container_name: garmin-mkdocs
+  garmin-ign-bdtopo-map:
+    container_name: garmin-ign-bdtopo-map
     build: .
     restart: unless-stopped
     ports:
@@ -11,20 +11,13 @@ services:
     environment:
       TZ:  Europe/Paris
     networks:
-      - mkdocs
+      - garmin-ign-bdtopo-map
 
 networks:
-  mkdocs:
-    name: mkdocs
+  garmin-ign-bdtopo-map:
+    name: garmin-ign-bdtopo-map
     driver: bridge
     ipam:
       config:
         - subnet: "172.24.0.0/16"
           gateway: "172.24.0.1"
-    driver_opts:
-      com.docker.network.bridge.default_bridge: "false"
-      com.docker.network.bridge.enable_icc: "true"	  
-      com.docker.network.bridge.enable_ip_masquerade: "true"
-      com.docker.network.bridge.host_binding_ipv4: "0.0.0.0"
-      com.docker.network.bridge.name: "mkdocs"
-      com.docker.network.driver.mtu: "1500"

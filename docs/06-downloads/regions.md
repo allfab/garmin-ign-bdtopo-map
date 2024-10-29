@@ -7,19 +7,11 @@ icon: material/map-search
 
 <div class="grid cards" markdown>
 
--   :fontawesome-regular-square-caret-up:{ .lg .middle }  Île-de-France - R11
-
-    ---
-
-    ![XXXXXX](../../assets/images/downloads/regions/region-bourgogne-franche-comte-r27-tom-morel--bwvVRJYnBU-unsplash.jpg)
-
-    [:material-download: Télécharger](#)
-
 -   :fontawesome-regular-square-caret-down:{ .lg .middle } Bourgogne-Franche-Comté - R27
 
     ---
 
-    ![XXXXXX](../../assets/images/downloads/regions/region-normandie-r28-myrlene-numa-dpsGypROkCc-unsplash.jpg)
+    ![XXXXXX](../../assets/images/downloads/regions/region-bourgogne-franche-comte-r27-tom-morel--bwvVRJYnBU-unsplash.jpg)
 
     [:material-download: Télécharger](#)
 
@@ -28,7 +20,7 @@ icon: material/map-search
 
     ---
 
-    ![XXXXXX](../../assets/images/downloads/regions/region-hauts-france-r32-thomas-e93YwUc1lTQ-unsplash.jpg)
+    ![XXXXXX](../../assets/images/downloads/regions/region-normandie-r28-myrlene-numa-dpsGypROkCc-unsplash.jpg)
 
     [:material-download: Télécharger](#)
 

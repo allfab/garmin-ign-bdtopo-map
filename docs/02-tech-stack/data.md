@@ -1,9 +1,9 @@
 ---
-title: Téléchargement des données
-icon: material/download
+title: Socle de données
+icon: material/database
 ---
 
-# **02-03/ Téléchargement des données "socle"**
+# **02-03/ Le socle de données**
 
 Pour créer une carte topo, il nous faut des données vectorielles. La donnée de base qui va nous servir de socle à la création de notre carte personnalisée va être la [**BD TOPO® de l'IGN**](https://geoservices.ign.fr/bdtopo). Cette donnée "socle" sera complétée par les données d'[OpenStreetMap](https://www.openstreetmap.org/) via [GeoFabrik](http://www.geofabrik.de/) ainsi que les données de sentier de randonnées glannées ici et là, car cette donnée n'est pas en Open-Data.
 

@@ -55,7 +55,11 @@ flowchart LR
     click bdtopo href "/tech-stack/data/#ign-bd-topo" _blank
     click osm href "/tech-stack/data/#openstreetmap" _blank
     click sentier href "/tech-stack/data/#sentier-de-randonnees-gr" _blank
-    click dem href "/tech-stack/data/#30-meter-srtm" _blank
+    click dem href "/garmin-ign-bdtopo-map/tech-stack/data/#30-meter-srtm" _blank
+    click dem2contours href "/garmin-ign-bdtopo-map/tech-stack/data/#30-meter-srtm" _blank
+    
+
+    
 ```
 
 <figure markdown>

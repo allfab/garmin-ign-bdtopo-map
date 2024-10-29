@@ -1,8 +1,10 @@
 site_name: GARMIN IGN BDTOPO MAP
-site_url: https://allfab.github.io/garmin-ign-bdtopo-map/
-repo_url: https://github.com/allfab/garmin-ign-bdtopo-map.git
+site_description: Retrouvez ici comment créer des cartes personnalisées compatibles Garmin
+site_author: Fabien ALLAMANCHE
+site_url: https://maps.garmin.allfabox.fr
+repo_url: https://github.com/allfab/garmin-ign-bdtopo-map
 repo_name: allfab/garmin-ign-bdtopo-map
-#edit_uri: edit/main/docs/
+edit_uri: edit/main/docs/
 
 docs_dir: ./docs
 theme:
@@ -26,6 +28,7 @@ theme:
         icon: material/weather-sunny
         name: Passer en mode clair
   font:
+    text: Encode Sans
     code: Mooli
   features:
     - navigation.instant
@@ -35,15 +38,17 @@ theme:
     - navigation.expand #expands sections by default
     #- navigation.tabs # section tabs along the top
     - navigation.top
+    - navigation.footer
     - toc.follow
-    - toc.integrate # moves toc to the left
+    # - toc.integrate # moves toc to the left
     #- content.action.edit
     #- content.action.view
     - content.code.annotate
     - content.code.copy
     # - content.code.select
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
+    # - header.autohide
 
 markdown_extensions: 
   - admonition # enables coloured blocks mid article
@@ -66,36 +71,84 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-plugins:
-  - search
-  - glightbox
-  - open-in-new-tab
-  - mermaid2
+# PERSONNALISATION  
+extra:
+  social:    
+    - icon: "fontawesome/solid/rss"
+      link: "https://geotribu.fr/feed_rss_created.xml"
+      name: "S'abonner aux nouveaux contenus via RSS"
+    - icon: "fontawesome/brands/github-alt"
+      link: "https://github.com/vienne-condrieu-agglomeration/"
+      name: "L'organisation Github du service SIG de Vienne Condrieu Agglomération"
+    - icon: fontawesome/brands/mastodon 
+      link: https://mapstodon.space/@allfab
+      name: "Allfab sur Mapstodon"
+    - icon: "fontawesome/brands/linkedin"
+      link: "https://www.linkedin.com/search/results/all/?keywords=vienne%20condrieu%20agglomeration"
+      name: "Les contenus de Vienne Condrieu Agglomération sur LinkedIn"
+    - icon: "fontawesome/brands/youtube"
+      link: https://www.youtube.com/@viennecondrieuagglomeratio8501
+      name: "Chaîne Youtube de Vienne Condrieu Agglomération"
+    - icon: "fontawesome/brands/facebook"
+      link: "https://www.facebook.com/VienneCondrieuAgglomeration"
+      name: "Page Facebook de Vienne Condrieu Agglomération"
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<igeo@vienne-condrieu-aggloemration.fr>
+      name: "Nous contacter"
+  # Cookie consent
+  consent:
+    title: Consentement 🍪
+    actions:
+      - accept
+      - reject
+    description: >- 
+      Nous utilisons des cookies pour reconnaître vos visites et préférences répétées,
+      ainsi que pour mesurer l'efficacité de notre documentation et si les utilisateurs
+      trouvent ce qu'ils recherchent. Avec votre consentement, vous nous aidez
+      à améliorer notre documentation.
 
-#extra_css:
-  #- extra/mermaid-base.css
+# extra_css:
+#   - extra/stylesheets/extra.css
+#   - extra/stylesheets/mermaid-base.css
+
+# PLUGINS
+plugins:
+  - search:
+      lang: fr
+  # - autolinks
+  - awesome-pages
+  - open-in-new-tab
+  - glightbox
+  - mermaid2
+  - tags:
+      tags_file: tags.md
+  # - minify:
+  #     minify_css: true
+  #     css_files:
+  #       - assets/stylesheets/extra.css
+  #       - assets/stylesheets/home.css
 
 nav:
   - 1. Introduction:
     - Bienvenue sur GARMIN IGN BDTOPO MAP: "index.md"
   - 2. Pile technologique:
-    - Logiciels & outils: "tech-stack/software-tools.md"
-    - Arborescence des dossiers/fichiers: "tech-stack/folder-tree.md"
-    - Téléchargement des données: "tech-stack/data.md"
+    - Logiciels & outils: "02-tech-stack/software-tools.md"
+    - Arborescence des dossiers/fichiers: "02-tech-stack/folder-tree.md"
+    - Socle de données: "02-tech-stack/data.md"
   - 3. Processus de création:
-    - Diagramme: "process/diagram.md"
-    - Détails du process: "process/details.md"
-  - 4. Assemblage des données et installation:
-    - Assemblage des données: "installation/data-assembly.md"
-    - Procédure d'installation: "installation/process.md"
-  - 5. Téléchargements: 
-    - France: "downloads/france.md"
-    - Régions: "downloads/regions.md"
-
-extra:
-  social:
-    - icon: 'fontawesome/brands/mastodon'
-      link: 'https://mapstodon.space/@allfab'
-      name: Allfab sur Mastodon
+    - Diagramme: "03-process/diagram.md"
+    - Détails du process: "03-process/creation-process.md"
+  - 4. Guide pas à pas:
+    - Préambule: "04-tutorials/preamble.md"
+    - Les courbes de niveau: "04-tutorials/contours.md"
+  - 5. Assemblage des données et installation:
+    - Assemblage des données: "05-installation/data-assembly.md"
+    - Procédure d'installation: "05-installation/process.md"
+  - 6. Téléchargements: 
+    - France: "06-downloads/france.md"
+    - Régions: "06-downloads/regions.md"
+    - Outre-mer: "06-downloads/outre-mer.md"
+  - Tags:
+    - "tags.md"
       
-copyright: 2024 &copy; Allfab Studio - Licensed under GPLv3
+copyright: 2024 &copy; Allfab Studio
