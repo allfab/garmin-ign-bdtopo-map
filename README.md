@@ -17,12 +17,12 @@ Le but de ce site est donc la mise à disposition/création de cartes topographi
 ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png)
 
 <figure markdown>
-  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png){: width=660 }
+  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png)
   <figcaption><i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Espace boisé</i></figcaption>
 </figure>
 
 <figure markdown>
-  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/garmin-topo-france-v6-pro.jpeg){: width=660 }
+  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/garmin-topo-france-v6-pro.jpeg)
   <figcaption><i>TOPO France v6 PRO - France entière</i></figcaption>
 </figure>
 
