@@ -76,4 +76,7 @@ Bien qu'il existe de nombreuses méthodes différentes qui peuvent être utilis�
 
 ## **Table des matières**
 
-- [Partie 1 - Données d'élévation/Courbes de niveau - Téléchargement et traitement des données USGS DEM](/04-tutorials/contours/)
+- **Partie 01 : Préparation des fichiers ESRI Shapefile aux spécifications GARMIN** :
+    - [Données d'élévation/Courbes de niveau - Téléchargement et traitement des données USGS DEM](/04-tutorials/contours/)
+- **Partie 02 : Export des fichiers ESRI Shapefile aux spécifications GARMIN au format Polski Format Mappy — Format de carte polonais .MP** :
+    - Coming soon
