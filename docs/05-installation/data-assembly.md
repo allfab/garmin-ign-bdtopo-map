@@ -3,7 +3,7 @@ title: Assemblage des données
 icon: material/merge
 ---
 
-# 04-01/ Cartes topographiques créées
+# Cartes topographiques créées
 
 - 2 Cartes topographiques, France SUD et NORD, précises + la Corse, issues de l'assemblage des données contenues dans la BD TOPO® de l'IGN,
 - Inclut des données sur les chemins de randonnée tels que les sentiers de Grande Randonnée (GR) - Tracés des GRs provenant du site www.gr-infos.com

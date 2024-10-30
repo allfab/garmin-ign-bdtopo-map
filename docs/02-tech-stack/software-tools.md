@@ -3,7 +3,7 @@ title: Logiciels & outils
 icon: material/tools
 ---
 
-# **02-01/ Logiciels & outils**
+# **Logiciels & outils**
 
 Étant géomaticien de métier, je bénéficie pour l’occasion d’une petite panoplie d’outils soumis à licences payantes. Je pense notamment à **Global Mapper et de FME**. Ce seront mes 2 outils clés dans la préparation des données cartographiques. Je vous rassure, il est tout à fait possible d’aller jusqu’au bout de ce didacticiel avec des logiciels libres ou gratuits (éventuellement avec quelques mises en garde) mais le chemin sera quand même bien plus long & compliqué.
 

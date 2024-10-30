@@ -3,7 +3,7 @@ title: Téléchargements - France Sud/Nord
 icon: material/map
 ---
 
-# 05-01/ :material-map: France NORD et SUD
+# :material-map: France NORD et SUD
 
 <div class="grid cards" markdown>
 

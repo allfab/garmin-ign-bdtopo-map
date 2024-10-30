@@ -3,7 +3,7 @@ title: Guide - Les courbes de niveau
 icon: material/image-filter-hdr
 ---
 
-# **04-01/ Les courbes de niveau**
+# **Les courbes de niveau**
 
 ## **Téléchargement et préparation des données d'élévation (courbes de niveau & DEM)**
 

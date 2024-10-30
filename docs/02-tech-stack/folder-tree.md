@@ -3,7 +3,7 @@ title: Arborescence des dossiers
 icon: material/sitemap
 ---
 
-# **02-02/ Arborescence des dossiers**
+# **Arborescence des dossiers**
 
 Ici, c’est à vous d’organiser la façon dont vous allez structurer vos données. Je vous conseille d’être assez ordonné car vous allez vite vous perdre avec la multitude de fichiers que vous allez manipuler avec ce tutoriel.
 

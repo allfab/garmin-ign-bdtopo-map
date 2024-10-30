@@ -3,7 +3,7 @@ title: Téléchargements - Outre-mer
 icon: material/map-search
 ---
 
-# 05-02/ :material-map-search: Outre-mer
+# :material-map-search: Outre-mer
 
 <div class="grid cards" markdown>
 

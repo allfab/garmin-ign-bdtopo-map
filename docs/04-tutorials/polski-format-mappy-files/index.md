@@ -3,7 +3,14 @@ title: Guide - Polski Format Mappy Files
 # icon: material/text-box
 ---
 
-# **04-02/ Polski Format Mappy Files**
+# **Polski Format Mappy Files**
+
+À ce stade, nous avons fini de préparer l'ensemble de nos fichiers vectoriels ESRI Shapefile aux spécifications GARMIN. Afin de pouvoir créer les fichiers Garmin IMG digérés par les appareils GPS Garmin, il faut au préalable les transformer en fichier Polski Format Mappy Files (.MP).
+
+Pour se faire, je vais utiliser le logiciel Global Mapper qui offre la possibilité d'exporter n'importe quel fichier vectoriel qu'il peut lire dans ce format Polski Format Mappy Files (.MP).
+
+On peut le faire de 2 façons différentes avec Global Mapper. Soit en utilisant l'interface graphique de l'application soit avec une solution hybride qui consiste à éxecuter un script .GMS ([Global Mapper Scripting Language](https://www.bluemarblegeo.com/knowledgebase/global-mapper-25/Scripting_Reference/ScriptReference.html)) via l'application, ce qui permet d'automatiser un peu le processus d'export.
+
 
 ## Via Global Mapper
 

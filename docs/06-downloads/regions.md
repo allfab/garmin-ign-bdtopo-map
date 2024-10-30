@@ -3,7 +3,7 @@ title: Téléchargements - Régions
 icon: material/map-search
 ---
 
-# 05-02/ :material-map-search: Régions
+# :material-map-search: Régions
 
 <div class="grid cards" markdown>
 

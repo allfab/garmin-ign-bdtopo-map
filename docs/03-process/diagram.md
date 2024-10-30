@@ -3,7 +3,7 @@ title: Diagramme
 icon: simple/diagramsdotnet
 ---
 
-# **03-01/ Processus de création**
+# **Processus de création**
 
 **Entrons dans le vif du sujet !** 
 
@@ -57,9 +57,6 @@ flowchart LR
     click sentier href "/tech-stack/data/#sentier-de-randonnees-gr" _blank
     click dem href "/garmin-ign-bdtopo-map/tech-stack/data/#30-meter-srtm" _blank
     click dem2contours href "/garmin-ign-bdtopo-map/tech-stack/data/#30-meter-srtm" _blank
-    
-
-    
 ```
 
 <figure markdown>

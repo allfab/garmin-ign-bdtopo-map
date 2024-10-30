@@ -3,7 +3,7 @@ title: Guide
 icon: material/book-education
 ---
 
-# **:material-book-education: 04-01/ Un guide pas à pas**
+# **:material-book-education: Un guide pas à pas**
 
 
 ## **Comment créer des cartes Garmin Topo personnalisées**
@@ -15,16 +15,37 @@ Il n'y a pas d'ordre prédéfini pour la création des fichiers ESRI Shapefile a
 Vous pouvez organiser la création de ces derniers comme bon vous semble. Il suffit d'ajouter l'ensemble des fichiers **ESRI Shapefile** créés, à l'étape de transformation en fichier **.MP**  pour les compiler en fichier **.IMG** dans l'étape finale de compilation.
 
 
-## **Spécifications des fichier ESRI Shapefile GARMIN**
+## **Les 3 étapes clés**
 
-Afin de réaliser nos cartes topo personnalisées, il faut préalablement retravailler tous nos fichiers sources vectoriels qui proviennent essentiellement de la [BD TOPO® de l'IGN](https://geoservices.ign.fr/bdtopo) *(mais aussi d'OpenStreetMap ou encore des courbes de niveau que nous allons fabriquer)*. Pour la **BD TOPO®**, ceux-ci sont déjà au format **ESRI Shapefile** mais la table attributaire de chaque couche de la **BD TOPO®** n'est pas aux spécifications GARMIN.
+- Préparer ses données sources pour qu'elles soient conformes aux spécifications de fichiers ESRI Shapefile GARMIN,
+- Convertir cet ensemble de fichiers au format Polski Format Mappy — Format de carte polonais - *.MP,
+- Compiler les fichiers au format Polski Format Mappy — Format de carte polonais - *.MP en GARMIN .IMG.
 
-De la même manière, les cartes contenant des couches routables et/ou adressables par voie ne seront prises en charge que par l'entrée **ESRI Shapefile** avec des attributs spécifiques qui définissent les propriétés de chaque linéaire de voirie ou de points d'adresse. Les attributs d'entité sont nécessaires pour la technologie cartographique avancée, comme le calcul automatique d'itinéraire et la recherche d'adresses sur la carte.
 
-Dans un premier temps, nous ne travaillerons pas les fichiers de voirie **ESRI Shapefile** pour qu'ils soient routables. On va se contenter d'une carte topo simple.
+```mermaid
+---
+title : Les 3 étapes clés
+---
+flowchart LR
+    subgraph Étape 01
+        direction LR
+        garmin["<b>ESRI Shapefile</b><br />GARMIN Shapefile Specification"]
+    end
+    subgraph Étape 02
+        direction LR
+        mp_file["<b>Conversion .SHP -> .MP</b><br />Polski Format Mappy - *.MP"]
+    end
+    subgraph Étape 03
+        direction LR
+        img_file["<b>Compilation</b><br />GARMIN .IMG File"]
+    end
+    garmin --> mp_file --> img_file
 
-!!! warning "Système de coordonnées"
-    Toutes les coordonnées géométriques définies dans un fichier ESRI Shapefile aux spécification GARMIN **doivent être spécifiées en degrés décimaux avec un datum WGS84 (EPSG:4326)** et dans aucune autre projection.
+    click garmin href "/04-tutorials/garmin-shp-specs" _blank
+    click mp_file href "/04-tutorials/polski-format-mappy-files" _blank
+    click img_file href "/04-tutorials/garmin-img-files" _blank
+```
+
 
 ## **Difficultées rencontrées**
 
@@ -74,7 +95,7 @@ Bien qu'il existe de nombreuses méthodes différentes qui peuvent être utilis�
 - Basecamp
 
 
-## **Table des matières**
+## **Guide pas à pas**
 
 - **Partie 01 : Préparation des fichiers ESRI Shapefile aux spécifications GARMIN** :
     - [Données d'élévation/Courbes de niveau - Téléchargement et traitement des données USGS DEM](/04-tutorials/contours/)

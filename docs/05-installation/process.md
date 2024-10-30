@@ -3,7 +3,7 @@ title: Procédure d'installation
 icon: material/sd
 ---
 
-# 04-02/ Procédure d'installation sur carte SD
+# Procédure d'installation sur carte SD
 
 1. Munissez-vous d'une Carte micro-SD vierge ou fraichement formattée (Min. 8GB - Max. 32GB) : ![SD Card](../../assets/images/installation/process/sdcard.png)
 2. [Téléchargez la ou les cartes](/downloads.md) que vous souhaitez installer sur l'appareil Garmin,
