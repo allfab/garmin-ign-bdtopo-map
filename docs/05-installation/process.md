@@ -6,7 +6,7 @@ icon: material/sd
 # Procédure d'installation sur carte SD
 
 1. Munissez-vous d'une Carte micro-SD vierge ou fraichement formattée (Min. 8GB - Max. 32GB) : ![SD Card](../../assets/images/installation/process/sdcard.png)
-2. [Téléchargez la ou les cartes](/downloads.md) que vous souhaitez installer sur l'appareil Garmin,
+2. [Téléchargez la ou les cartes](/06-downloads/france) que vous souhaitez installer sur l'appareil Garmin,
 3. Lorsque vous téléchargez une carte Garmin Topo personnalisée sur ce site, vous téléchargez un fichier au format ZIP,
 4. Ce fichier est nommée IGN-BDTOPO-2022-RXX.zip avec XX le code INSEE "Région" en vigueur (ex: IGN-BDTOPO-2022-R94.zip pour la Corse),
 5. Ce fichier ZIP est spécialement formatté pour être directement dézippé ou copié sur votre carte SD,
