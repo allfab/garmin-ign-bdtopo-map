@@ -14,7 +14,7 @@ Ce site documente les nombreux aspects de la création d'une carte **Garmin pers
 
 Le but de ce site est donc la mise à disposition/création de cartes topographiques personnalisées Garmin compatibles avec un GPS de randonnée de la marque **Garmin** ou encore les appareils de suivi de chien tels que **l'Alpha® 100F, l'Alpha® 200F, l'Alpha® 300F, l'Alpha® 50F ou encore l'Astro® 320** *(qui n'est plus en vente à l'heure actuelle)* et qui se rapproche le plus possible des différentes cartes topographiques que Garmin propose. Je pense notamment à la carte [**TOPO France v6 PRO**](https://www.garmin.com/fr-FR/p/612545).
 
-[Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png){: width=660 }
+![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png)
 
 <figure markdown>
   ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png){: width=660 }
