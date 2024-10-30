@@ -20,26 +20,15 @@ Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Espace boisé
 ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/garmin-topo-france-v6-pro.jpeg)
 TOPO France v6 PRO - France entière
 
-![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/garmin-topo-france-v6-pro.jpeg)
-  TOPO France v6 PRO - France entière
-
 Vous trouverez une série d’articles dans le but d’expliquer, aux cartographes en herbe et/ou aux plus confirmés, le processus de création des cartes topographiques compatibles avec les appareils GPS de Garmin.
 
-<figure markdown>
-  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-02.png){: width=660 }
-  <figcaption><i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Grand axe de circulation</i></figcaption>
-</figure>
+![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-02.png)
+<i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Grand axe de circulation</i>
 
-<figure markdown>
-  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-03.png){: width=660 }
-</figure>
-<figure markdown>
-  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-04.png){: width=660 }
-  <figcaption><i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Zoom sur centre-ville</i></figcaption>
-</figure>
+![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-03.png)
+<i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Zoom sur centre-ville</i>
 
 Pour réaliser ces cartes, je me suis fortement inspiré de la série d’articles publiée sur le site [GPSFileDepot](https://www.gpsfiledepot.com/). Ces articles ont été publié en 2008, puis mis à jour en 2016. À noter que je n’utiliserai pas l’entièreté des logiciels présentés dans ces articles et viendrai même en ajouter une paire dans la trousse à outils du géomaticien !
-
 
 !!! note "OBJECTIF"
     Nous aborderons les logiciels, les structures de dossiers, les informations de téléchargement des données cartographiques et leur traitement afin d’obtenir une carte Garmin Topo personnalisée.
