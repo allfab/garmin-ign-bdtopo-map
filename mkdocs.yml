@@ -74,27 +74,21 @@ markdown_extensions:
 # PERSONNALISATION  
 extra:
   social:    
-    - icon: "fontawesome/solid/rss"
-      link: "https://geotribu.fr/feed_rss_created.xml"
-      name: "S'abonner aux nouveaux contenus via RSS"
+    # - icon: "fontawesome/solid/rss"
+    #   link: "https://geotribu.fr/feed_rss_created.xml"
+    #   name: "S'abonner aux nouveaux contenus via RSS"
     - icon: "fontawesome/brands/github-alt"
-      link: "https://github.com/vienne-condrieu-agglomeration/"
-      name: "L'organisation Github du service SIG de Vienne Condrieu Agglomération"
+      link: "https://github.com/allfab/"
+      name: "Mon Github"
     - icon: fontawesome/brands/mastodon 
       link: https://mapstodon.space/@allfab
       name: "Allfab sur Mapstodon"
     - icon: "fontawesome/brands/linkedin"
-      link: "https://www.linkedin.com/search/results/all/?keywords=vienne%20condrieu%20agglomeration"
-      name: "Les contenus de Vienne Condrieu Agglomération sur LinkedIn"
-    - icon: "fontawesome/brands/youtube"
-      link: https://www.youtube.com/@viennecondrieuagglomeratio8501
-      name: "Chaîne Youtube de Vienne Condrieu Agglomération"
-    - icon: "fontawesome/brands/facebook"
-      link: "https://www.facebook.com/VienneCondrieuAgglomeration"
-      name: "Page Facebook de Vienne Condrieu Agglomération"
+      link: "https://www.linkedin.com/in/fabien-allamanche-64456268/"
+      name: "Mon Linkedin"
     - icon: fontawesome/solid/paper-plane
-      link: mailto:<igeo@vienne-condrieu-aggloemration.fr>
-      name: "Nous contacter"
+      link: mailto:<allfab@gmail.com>
+      name: "Me contacter"
   # Cookie consent
   consent:
     title: Consentement 🍪
@@ -140,7 +134,7 @@ nav:
     - Détails du process: "03-process/creation-process.md"
   - 4. Guide pas à pas:
     - Préambule: "04-tutorials/preamble.md"
-    - 01. GARMIN Shapefile Specification: 
+    - 01. GARMIN ESRI Shapefile: 
       - "04-tutorials/garmin-shp-specs/index.md"
       - Les courbes de niveau: "04-tutorials/garmin-shp-specs/contours.md"
       - IGN BD TOPO®: "04-tutorials/garmin-shp-specs/ign-bdtopo.md"
