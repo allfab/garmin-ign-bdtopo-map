@@ -15,16 +15,13 @@ Ce site documente les nombreux aspects de la création d'une carte **Garmin pers
 Le but de ce site est donc la mise à disposition/création de cartes topographiques personnalisées Garmin compatibles avec un GPS de randonnée de la marque **Garmin** ou encore les appareils de suivi de chien tels que **l'Alpha® 100F, l'Alpha® 200F, l'Alpha® 300F, l'Alpha® 50F ou encore l'Astro® 320** *(qui n'est plus en vente à l'heure actuelle)* et qui se rapproche le plus possible des différentes cartes topographiques que Garmin propose. Je pense notamment à la carte [**TOPO France v6 PRO**](https://www.garmin.com/fr-FR/p/612545).
 
 ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png)
+Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Espace boisé
 
-<figure markdown>
-  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/map-view-01.png)
-  <figcaption><i>Extrait de la carte GARMIN IGN BDTOPO MAP France SUD - Espace boisé</i></figcaption>
-</figure>
+![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/garmin-topo-france-v6-pro.jpeg)
+TOPO France v6 PRO - France entière
 
-<figure markdown>
-  ![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/garmin-topo-france-v6-pro.jpeg)
-  <figcaption><i>TOPO France v6 PRO - France entière</i></figcaption>
-</figure>
+![Garmin](https://maps.garmin.allfabox.fr/assets/images/overview/garmin-topo-france-v6-pro.jpeg)
+  TOPO France v6 PRO - France entière
 
 Vous trouverez une série d’articles dans le but d’expliquer, aux cartographes en herbe et/ou aux plus confirmés, le processus de création des cartes topographiques compatibles avec les appareils GPS de Garmin.
 
