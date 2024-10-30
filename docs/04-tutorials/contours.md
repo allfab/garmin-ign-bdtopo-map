@@ -12,7 +12,7 @@ icon: material/image-filter-hdr
   <figcaption>Global Mapper - Chargement des tuiles *.HGT provenant de <a href="https://dwtkns.com/srtm30m/">https://dwtkns.com/srtm30m/</a></figcaption>
 </figure>
 
-### Téléchargement des données d'élévation SRTM HGT
+Téléchargement des données d'élévation SRTM HGT :
 
 <figure markdown>
   ![02-srtm-hgt](../../assets/images/tutorials/contours/02-srtm-hgt.png)
@@ -31,6 +31,7 @@ Je vous conseille ici de télécharger les tuiles qui correspondent au territoir
 
 Nous utiliserons ces tuiles pour générer des courbes de niveau du territoire au format ESRI Shapefile via Global Mapper. On peut aussi générer ces courbes de niveau via l'utilitaire [**GDAL (gdal_contour)**](https://medium.com/r/?url=https%3A%2F%2Fgdal.org%2Fprograms%2Fgdal_contour.html) mais je trouve que l'option de lissage des polylignes obtenues pour les courbes de niveau est bien plus propre dans Global Mapper. En effet, je n'ai pas trouvé d'option de lissage des polylignes dans GDAL.
 
+## **Via Global Mapper**
 
 Une fois ces tuiles téléchargées et stockées sur votre disque dur, nous allons les ouvrir pour générer les contours dans Global Mapper :
 
@@ -46,7 +47,7 @@ Afin de générer mes courbes de niveau sur le territoire de mon choix, ici le d
   <figcaption><a href="https://geoservices.ign.fr/bdtopo">BD TOPO® de l'IGN</a></figcaption>
 </figure>
 
-
+## **Via GDAL**
 
 <figure markdown>
   ![xxxxxxxxxxxx](../../assets/images/tutorials/contours/xxxxxxxxx.png)

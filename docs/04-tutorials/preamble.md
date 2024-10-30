@@ -56,16 +56,24 @@ Pour mes tests, j'ai donc téléchargé uniquement le territoire de l'Isère. Ce
   <figcaption>Téléchargement de la dernière édition de la **BD TOPO®** sur le département de l'Isère qui pèse 325 MO</figcaption>
 </figure>
 
-Une fois mes tests réalisés avec succès, j'ai entrepris de lancer les 2 cartes France Nord et Sud qui représentent pour chacune des cartes, un peu moins de **500GO** de données brassées répartie entre le téléchargements de données brutes et les fichiers retravaillés au format ESRI Shapefile ou au format .MP pour la compilation des fichiers .IMG.
+Une fois mes tests réalisés avec succès, j'ai entrepris de lancer les 2 cartes France Nord et Sud qui représentent pour chacune des cartes, un peu moins de **500GO** de données brassées répartie entre le téléchargements de données brutes et les fichiers retravaillés au format ESRI Shapefile ou au format .MP pour la compilation des fichiers .IMG, pour au final, arriver à des fichiers pour la carte France Nord de **2.6GO** et pour la France Sud de **3.2GO**.
+
+## Configurer votre PC
+
+### Téléchargement et installation des logiciels requis
+
+Bien qu'il existe de nombreuses méthodes différentes qui peuvent être utilisées pour y parvenir, ce tutoriel utilisera certains logiciels clés comme :
+
+- FME,
+- GLOBAL MAPPER,
+- GDAL/OGR2OGR,
+- QGIS,
+- GMAPTool,
+- TYPViewer,
+- GPSMAPEdit,
+- Basecamp
+
 
 ## **Table des matières**
 
-- Partie 1 - Configuration - explique comment configurer votre ordinateur pour créer facilement des cartes
-- Partie 2 - Données d'élévation - télécharger et traiter les données USGS DEM
-- Partie 3 - Données sur l'eau - télécharger et traiter les données sur l'eau haute résolution USGS NHD
-- Partie 4 - Données de transport - télécharger et traiter les nouvelles données de transport Tiger
-- Partie 5 - Points d'intérêt - télécharger et traiter les points d'intérêt USGS GNIS
-- Partie 6 – Terres fédérales – téléchargez et traitez les réserves amérindiennes, les bases militaires, les parcs nationaux et autres terres fédérales.
-- Partie 7 - Frontières - télécharger et traiter les frontières des États et des comtés
-- Partie 8 - Combinaison - combinez toutes les données en un seul ensemble de fichiers et divisez-les en segments plus petits.
-- Partie 9 - Compilation - utilisez nos techniques pour convertir les fichiers en fichiers .img et créer un fichier d'installation.
+- [Partie 1 - Données d'élévation/Courbes de niveau - Téléchargement et traitement des données USGS DEM](/04-tutorials/contours/)
