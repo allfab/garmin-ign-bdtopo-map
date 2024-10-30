@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: Guide - Les courbes de niveau
 icon: material/image-filter-hdr
 ---
 
