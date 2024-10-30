@@ -140,7 +140,12 @@ nav:
     - Détails du process: "03-process/creation-process.md"
   - 4. Guide pas à pas:
     - Préambule: "04-tutorials/preamble.md"
-    - Les courbes de niveau: "04-tutorials/contours.md"
+    - 01. GARMIN Shapefile Specification:
+      - Les courbes de niveau: "04-tutorials/contours.md"
+      - IGN BD TOPO®: "04-tutorials/ign-bdtopo.md"
+      - OpenStreetMap: "04-tutorials/osm.md"
+    - 02. Polski Format Mappy — Format de carte polonais - *.MP: "04-tutorials/mp-files.md"
+    - 03. Compilation au format GARMIN .IMG: "04-tutorials/img-files.md"
   - 5. Assemblage des données et installation:
     - Assemblage des données: "05-installation/data-assembly.md"
     - Procédure d'installation: "05-installation/process.md"
