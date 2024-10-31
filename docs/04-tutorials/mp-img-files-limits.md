@@ -1,5 +1,5 @@
 ---
-title: Guide
+title: Limites des formats .MP et .IMG
 icon: material/alert
 ---
 
