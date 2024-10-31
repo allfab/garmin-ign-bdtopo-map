@@ -140,9 +140,10 @@ nav:
       - IGN BD TOPO®: "04-tutorials/garmin-shp-specs/ign-bdtopo.md"
       - OpenStreetMap: "04-tutorials/garmin-shp-specs/osm.md"
     - 02. Polski Format Mappy — Format de carte polonais - *.MP:
-      - "04-tutorials/polski-format-mappy-files/index.md"
+      - "04-tutorials/mp-img-files-limits.md"
     - 03. Compilation au format GARMIN .IMG:
       - "04-tutorials/garmin-img-files/index.md"
+    - Limites des formats .MP et .IMG: "04-tutorials/garmin-shp-specs/index.md"
   - 5. Assemblage des données et installation:
     - Assemblage des données: "05-installation/data-assembly.md"
     - Procédure d'installation: "05-installation/process.md"
