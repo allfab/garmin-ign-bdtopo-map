@@ -3,6 +3,8 @@ title: Limites des formats .MP et .IMG
 icon: material/alert
 ---
 
+En vrac, à reconstruire...
+
 # **:material-alert: Limites des formats .MP et .IMG**
 
 '24' fait référence à la précision des coordonnées de latitude et de longitude fournies pour l'objet. Lors de la déclaration de l'emplacement des objets dans le monde, la plus grande précision disponible utilise 24 bits de résolution, ce qui se résout avec une précision d'environ 2,5 mètres. Les unités GPS grand public ont une précision de la meilleure boîte d'environ 8 mètres.
