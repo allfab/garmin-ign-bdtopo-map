@@ -27,17 +27,23 @@ Vous pouvez organiser la création de ces derniers comme bon vous semble. Il suf
 title : Les 3 étapes clés
 ---
 flowchart LR
-    subgraph Étape 01
-        direction LR
-        garmin["<b>ESRI Shapefile</b><br />GARMIN Shapefile Specification"]
+    subgraph via FME
+        subgraph Étape 01
+            direction LR
+            garmin["<b>ESRI Shapefile</b><br />GARMIN Shapefile Specification"]
+        end
     end
-    subgraph Étape 02
-        direction LR
-        mp_file["<b>Conversion .SHP -> .MP</b><br />Polski Format Mappy - *.MP"]
+    subgraph via Global Mapper
+        subgraph Étape 02
+            direction LR
+            mp_file["<b>Conversion .SHP -> .MP</b><br />Polski Format Mappy - *.MP"]
+        end
     end
-    subgraph Étape 03
-        direction LR
-        img_file["<b>Compilation</b><br />GARMIN .IMG File"]
+    subgraph via mkgmap
+        subgraph Étape 03
+            direction LR
+            img_file["<b>Compilation</b><br />GARMIN .IMG File"]
+        end
     end
     garmin --> mp_file --> img_file
 
