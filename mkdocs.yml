@@ -50,7 +50,7 @@ theme:
     - content.tooltips
     # - header.autohide
 
-markdown_extensions: 
+markdown_extensions:
   - admonition # enables coloured blocks mid article
   - attr_list # improves image handling
   - md_in_html # grids (insiders)
@@ -69,18 +69,18 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format:
+            !!python/name:pymdownx.superfences.fence_code_format # PERSONNALISATION
 
-# PERSONNALISATION  
 extra:
-  social:    
+  social:
     # - icon: "fontawesome/solid/rss"
     #   link: "https://geotribu.fr/feed_rss_created.xml"
     #   name: "S'abonner aux nouveaux contenus via RSS"
     - icon: "fontawesome/brands/github-alt"
       link: "https://github.com/allfab/"
       name: "Mon Github"
-    - icon: fontawesome/brands/mastodon 
+    - icon: fontawesome/brands/mastodon
       link: https://mapstodon.space/@allfab
       name: "Allfab sur Mapstodon"
     - icon: "fontawesome/brands/linkedin"
@@ -95,7 +95,7 @@ extra:
     actions:
       - accept
       - reject
-    description: >- 
+    description: >-
       Nous utilisons des cookies pour reconnaître vos visites et préférences répétées,
       ainsi que pour mesurer l'efficacité de notre documentation et si les utilisateurs
       trouvent ce qu'ils recherchent. Avec votre consentement, vous nous aidez
@@ -124,34 +124,34 @@ plugins:
 
 nav:
   - 1. Introduction:
-    - Bienvenue sur GARMIN IGN BDTOPO MAP: "index.md"
+      - Bienvenue sur GARMIN IGN BDTOPO MAP: "index.md"
   - 2. Pile technologique:
-    - Logiciels & outils: "02-tech-stack/software-tools.md"
-    - Arborescence des dossiers/fichiers: "02-tech-stack/folder-tree.md"
-    - Socle de données: "02-tech-stack/data.md"
+      - Logiciels & outils: "02-tech-stack/software-tools.md"
+      - Arborescence des dossiers/fichiers: "02-tech-stack/folder-tree.md"
+      - Socle de données: "02-tech-stack/data.md"
   - 3. Processus de création:
-    - Diagramme: "03-process/diagram.md"
-    - Détails du process: "03-process/creation-process.md"
+      - Diagramme: "03-process/diagram.md"
+      - Détails du process: "03-process/creation-process.md"
   - 4. Guide pas à pas:
-    - Préambule: "04-tutorials/preamble.md"
-    - 01. GARMIN ESRI Shapefile: 
-      - "04-tutorials/garmin-shp-specs/index.md"
-      - Les courbes de niveau: "04-tutorials/garmin-shp-specs/contours.md"
-      - IGN BD TOPO®: "04-tutorials/garmin-shp-specs/ign-bdtopo.md"
-      - OpenStreetMap: "04-tutorials/garmin-shp-specs/osm.md"
-    - 02. Polski Format Mappy — Format de carte polonais - *.MP:
-      - "04-tutorials/mp-img-files-limits.md"
-    - 03. Compilation au format GARMIN .IMG:
-      - "04-tutorials/garmin-img-files/index.md"
-    - Limites des formats .MP et .IMG: "04-tutorials/garmin-shp-specs/index.md"
+      - Préambule: "04-tutorials/preamble.md"
+      - 01. GARMIN ESRI Shapefile:
+          - "04-tutorials/garmin-shp-specs/index.md"
+          - Les courbes de niveau: "04-tutorials/garmin-shp-specs/contours.md"
+          - IGN BD TOPO®: "04-tutorials/garmin-shp-specs/ign-bdtopo.md"
+          - OpenStreetMap: "04-tutorials/garmin-shp-specs/osm.md"
+      - 02. Polski Format Mappy — Format de carte polonais - *.MP:
+          - "04-tutorials/mp-img-files-limits.md"
+      - 03. Compilation au format GARMIN .IMG:
+          - "04-tutorials/garmin-img-files/index.md"
+      - Limites des formats .MP et .IMG: "04-tutorials/garmin-shp-specs/index.md"
   - 5. Assemblage des données et installation:
-    - Assemblage des données: "05-installation/data-assembly.md"
-    - Procédure d'installation: "05-installation/process.md"
-  - 6. Téléchargements: 
-    - France: "06-downloads/france.md"
-    - Régions: "06-downloads/regions.md"
-    - Outre-mer: "06-downloads/outre-mer.md"
+      - Assemblage des données: "05-installation/data-assembly.md"
+      - Procédure d'installation: "05-installation/process.md"
+  - 6. Téléchargements:
+      - France: "06-downloads/france.md"
+      - Régions: "06-downloads/regions.md"
+      - Outre-mer: "06-downloads/outre-mer.md"
   - Tags:
-    - "tags.md"
-      
+      - "tags.md"
+
 copyright: 2024 &copy; Allfab Studio
