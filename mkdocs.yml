@@ -72,6 +72,7 @@ markdown_extensions:
           format:
             !!python/name:pymdownx.superfences.fence_code_format # PERSONNALISATION
 
+
 extra:
   social:
     # - icon: "fontawesome/solid/rss"
@@ -154,4 +155,4 @@ nav:
   - Tags:
       - "tags.md"
 
-copyright: 2024 &copy; Allfab Studio
+copyright: 2025 &copy; Allfab Studio
